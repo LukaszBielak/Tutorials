@@ -1,0 +1,88 @@
+/* ###
+
+:: APP CONTROLLER :: MAKE IMAGE DIR RELATIVE :: ../images/ ::
+
+### */
+
+
+
+/* logowanie */
+
+#login-form {
+    position:absolute;
+    /* top: <-90, 0> */
+    top:0px;
+    right:360px;
+    width: 200px;
+    height: 120px;
+    -moz-border-radius-bottomleft: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #cacaca;
+    background-image: url("../images/adminX.png");
+    background-position: -5px 90px;
+    background-repeat: no-repeat;
+}
+
+#login-form span.title {
+    font-family: Arial, "Trebuchet MS", Verdana, Times;
+    font-weight: bold;
+    font-size: 11px;
+    color: #333132;
+    position: relative;
+    display: block;
+    top: -5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#login-form #login-input {
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+#login-form input {
+    width: 160px;
+    height: 20px;
+}
+
+#login-form #password-input {
+    width: 120px;
+    margin-left: 20px;
+}
+
+#login-form #login-submit {
+    width: 40px;
+    height: 27px;
+    margin-left: -3px;
+    vertical-align: top;
+}
+
+#login-form span.options {
+    position: relative;
+    top: 2px;
+    left: 0px;
+    padding-top: 10px;
+    font-family: "Trebuchet MS", Verdana, Times, Arial;
+    font-style: normal;
+    font-size: 1.1em;
+    color: #333132;
+}
+
+#login-form span.options a {
+    color: #333132;
+    text-decoration: none;
+}
+
+#login-form span.options a:hover {
+    text-decoration: underline;
+}
+#lang-changer
+{
+	position:absolute;
+	left:360px;
+}
+
